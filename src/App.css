@@ -1,0 +1,86 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(31, 45, 95, 0.08);
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  color: #5b6bff;
+  background: #eef0ff;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 1rem 0 0.5rem;
+}
+
+.lead {
+  color: #4a5072;
+  max-width: 36rem;
+  margin: 0 auto 1.5rem;
+}
+
+.counter {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #5b6bff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+.counter:hover {
+  background: #4453e6;
+}
+
+.counter:active {
+  transform: scale(0.97);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 24px rgba(31, 45, 95, 0.06);
+}
+
+.card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.card p {
+  margin: 0;
+  color: #4a5072;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #7b81a0;
+  font-size: 0.9rem;
+}
